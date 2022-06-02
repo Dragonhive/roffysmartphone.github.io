@@ -440,6 +440,10 @@ a:focus {
   font-family: 'Poppins', sans-serif;
 }
 
+.download_section .container {
+  margin-top: 200px;
+}
+
 .download_section .box {
   background-color: #333456;
   padding: 15px;
