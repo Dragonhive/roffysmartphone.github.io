@@ -32,6 +32,31 @@ body {
   padding-bottom: 90px;
 }
 
+
+/* lihat Koleksi */
+.lihatKoleksi {
+  position: relative;
+  top: 30px;
+  left: 470px;
+}
+
+.heading_container .ttgKami {
+  background-color: #ffffff;
+  padding: 10px 150px 10px 150px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+.merk {
+  background-color: #ffffff;
+  padding: 7px 150px 7px 150px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  margin-bottom: 20px;
+}
+
+.merk h2 {
+  font-weight: 600;
+}
+
 .heading_container h2 {
   font-weight: bold;
   color: #1d1e31;
