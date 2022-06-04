@@ -18,6 +18,7 @@ body {
 
 .layout_padding2-top {
   padding-top: 45px;
+  /* background-color: whitesmoke; */
 }
 
 .layout_padding2-bottom {
@@ -595,6 +596,10 @@ a:focus {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  /* background-color: whitesmoke; */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  color: whitesmoke;
+  /* background-color: #771cd7; */
 }
 
 .about_section .detail-box.b-1 a {
@@ -606,9 +611,30 @@ a:focus {
   border: 1px solid #4341a6;
 }
 
+.about_section .detail-box.b-1 .pb-2 {
+  padding: 10px;
+  background-color: #771cd7;
+  letter-spacing: 2px;
+  /* font-weight: 600; */
+}
+
 .about_section .detail-box.b-1 a:hover {
   background-color: transparent;
   color: #4341a6;
+}
+
+.about_section .detail-box.b-2 {
+  /* background-color: whitesmoke; */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  color: whitesmoke;
+  padding: 10px;
+}
+.about_section .detail-box.b-2 .textShadow {
+  background-color: #771cd7;
+  padding: 20px;
+  /* line-height: 40px; */
+  letter-spacing: 2px;
+  font-weight: 600;
 }
 
 .subscribe_section {
